@@ -16,5 +16,12 @@
             "legacyDecorator": true,
             "decoratorMetadata": true
         },
+        "baseUrl": ".",
+        "paths": {
+            "$components/*": ["src/core/components/*"],
+            "$shared/*": ["src/core/shared/*"],
+            "$ports/*": ["src/core/ports/*"],
+            "$infra/*": ["src/infrastructure/*"]
+        }
     }
 }

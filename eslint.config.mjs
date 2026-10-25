@@ -9,7 +9,7 @@ import { defineConfig, globalIgnores } from 'eslint/config';
 import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 
 export default defineConfig([
-    globalIgnores(['node_modules', 'dist', 'lib', 'test', '**/coverage', '**/migrations']),
+    globalIgnores(['node_modules', 'dist', 'lib', '**/migrations']),
 
     eslint.configs.recommended,
     tseslint.configs.recommended,

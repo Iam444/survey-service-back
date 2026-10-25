@@ -34,6 +34,13 @@
         "forceConsistentCasingInFileNames": true,
         "resolvePackageJsonExports": true,
         "isolatedModules": true,
+
+        "paths": {
+            "$shared/*": ["./src/core/shared/*"],
+            "$components/*": ["./src/core/components/*"],
+            "$ports/*": ["./src/core/ports/*"],
+            "$infra/*": ["./src/infrastructure/*"]
+        }
     },
     "include": ["src"],
     "exclude": ["node_modules", "dist"],
