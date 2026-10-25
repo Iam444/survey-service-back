@@ -3,7 +3,11 @@
 /node_modules
 /build
 
-# TypeScript build cache
+# Internal libs
+/lib
+
+# Cache
+.eslintcache
 *.tsbuildinfo
 
 # Logs
@@ -40,10 +44,8 @@ lerna-debug.log*
 
 # dotenv environment variable files
 .env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+.env.*
+!.env.sample
 
 # temp directory
 .temp
